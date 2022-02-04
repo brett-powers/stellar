@@ -1,0 +1,19 @@
+/*Colors*/
+:root {
+  --color-pink: #efa8b0;
+  --color-light-purple: #c79cc8;
+  --color-darker-purple: #a89cc8;
+  --color-light-blue: #8cc9f0;
+  --color-darker-blue: #9bb2e1;
+}
+body {
+  background: linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
+  height: 600vh;
+}
+/*Typography*/
+body {
+  font-family: source sans pro, Arial, Helvetica, sans-serif;
+}
+html {
+  font-size: 62.5%;
+}
