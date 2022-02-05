@@ -13,7 +13,39 @@ body {
 /*Typography*/
 body {
   font-family: source sans pro, Arial, Helvetica, sans-serif;
+  line-height: 1.5;
 }
 html {
   font-size: 62.5%;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
+  font-weight: 300;
+}
+h1,
+h3,
+h4 {
+  color: #fff;
+}
+h1 {
+  font-size: 3.5rem;
+}
+h2 {
+  font-size: 2.5rem;
+}
+h3 {
+  font-size: 2rem;
+}
+h4 {
+  font-size: 1.6rem;
+}
+h5 {
+  font-size: 2.3rem;
+}
+p {
+  font-size: 1.5rem;
 }
