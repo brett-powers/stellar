@@ -98,3 +98,13 @@ a:hover {
   border-bottom: none;
   color: rgb(199, 179, 179);
 }
+/*Icons*/
+.icon__list {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+.list__icon > a {
+  border-bottom: none;
+  font-size: 20px;
+}
