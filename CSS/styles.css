@@ -98,3 +98,31 @@ a:hover {
   border-bottom: none;
   color: rgb(199, 179, 179);
 }
+/*Icons*/
+.icon__list {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+.icon-container {
+  border: 1px solid var(--color-light-blue);
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.list__icon > a {
+  border-bottom: none;
+  font-size: 17px;
+}
+@media screen and (min-width: 1250px) {
+  .icon-container {
+    height: 50px;
+    width: 50px;
+  }
+  .list__icon > a {
+    font-size: 23px;
+  }
+}
