@@ -10,6 +10,17 @@ body {
   background: linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
   height: 600vh;
 }
+/*Layout*/
+header {
+  text-align: center;
+  margin: 0 50px;
+}
+main {
+  background: #fff;
+  margin: 0 35px;
+  border-radius: 5px;
+  height: 800px;
+}
 /*Typography*/
 body {
   font-family: source sans pro, Arial, Helvetica, sans-serif;
@@ -170,10 +181,6 @@ a:hover {
   }
 }
 /*Hero*/
-header {
-  text-align: center;
-  margin: 0 50px;
-}
 .hero__logo-container {
   display: flex;
   justify-content: center;
@@ -188,12 +195,6 @@ header {
   color: #fff;
 }
 /*info*/
-main {
-  background: #fff;
-  margin: 0 35px;
-  border-radius: 5px;
-  height: 800px;
-}
 .info {
   margin-top: 40px;
   text-align: center;
