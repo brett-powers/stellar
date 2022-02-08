@@ -277,3 +277,15 @@ a:hover {
 .offer__btn {
   margin-top: 20px;
 }
+@media screen and (min-width: 750px) {
+  .offer {
+    height: 850px;
+  }
+  .offer__grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .offer__container {
+    margin-top: 40px;
+  }
+}
