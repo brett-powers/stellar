@@ -187,3 +187,69 @@ header {
 .hero__text {
   color: #fff;
 }
+/*info*/
+main {
+  background: #fff;
+  margin: 0 35px;
+  border-radius: 5px;
+  height: 800px;
+}
+.info {
+  margin-top: 40px;
+  text-align: center;
+  height: 600px;
+  border-bottom: 1px solid rgb(173, 167, 167);
+}
+.container {
+  display: flex;
+  justify-content: center;
+}
+.info__img-container {
+  margin-top: 70px;
+  border: 2px solid rgb(173, 167, 167);
+  border-radius: 100%;
+  padding: 5px;
+}
+.info__img {
+  background: 50% 50% url(../Images/phone.jpg) no-repeat;
+  width: 200px;
+  height: 200px;
+  background-size: cover;
+  border-radius: 100%;
+}
+.info__header {
+  margin-top: 40px;
+}
+.info__text {
+  padding: 0 35px;
+}
+.info__btn {
+  margin-top: 20px;
+}
+@media screen and (min-width: 975px) {
+  .info {
+    align-items: center;
+    display: flex;
+    height: 400px;
+  }
+  .info__grid {
+    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 100px);
+    justify-items: center;
+  }
+  .container {
+    grid-column: 2;
+    grid-row: span 2;
+  }
+  .info__header {
+    grid-row: 1;
+  }
+}
+@media screen and (min-width: 1250px) {
+  .info__img {
+    height: 260px;
+    width: 260px;
+  }
+}
