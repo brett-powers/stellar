@@ -5,10 +5,22 @@
   --color-darker-purple: #a89cc8;
   --color-light-blue: #8cc9f0;
   --color-darker-blue: #9bb2e1;
+  --color-white: #fff;
+  --color-off-white: rgb(173, 167, 167);
 }
 body {
   background: linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
   height: 600vh;
+}
+/*Layout*/
+header {
+  text-align: center;
+  margin: 0 50px;
+}
+main {
+  background: var(--color-white);
+  margin: 0 35px;
+  border-radius: 5px;
 }
 /*Typography*/
 body {
@@ -30,7 +42,7 @@ h1,
 h3,
 h4,
 h5 {
-  color: #fff;
+  color: var(--color-white);
 }
 h1 {
   font-size: 3.5rem;
@@ -38,6 +50,7 @@ h1 {
 }
 h2 {
   font-size: 2.5rem;
+  margin-top: 40px;
 }
 h3 {
   font-size: 2rem;
@@ -53,6 +66,7 @@ h5 {
 p {
   font-size: 1.5rem;
   margin-top: 0;
+  padding: 0 35px;
 }
 @media screen and (min-width: 750px) {
   h1 {
@@ -87,8 +101,8 @@ p {
 }
 /*Links*/
 a {
-  border-bottom: 1px dotted #fff;
-  color: #fff;
+  border-bottom: 1px dotted var(--color-white);
+  color: var(--color-white);
   font-size: 1.7rem;
   font-weight: 300;
   text-decoration: none;
@@ -145,14 +159,14 @@ a:hover {
 .btn--secondary {
   background: var(--color-light-blue);
   border: none;
-  color: #fff;
+  color: var(--color-white);
   transition: background 0.3s;
 }
 .btn--secondary:hover {
   background: #6bb8e7;
 }
 .btn--footer {
-  color: #fff;
+  color: var(--color-white);
   transition: background 0.3s;
 }
 .btn--footer:hover {
@@ -170,10 +184,6 @@ a:hover {
   }
 }
 /*Hero*/
-header {
-  text-align: center;
-  margin: 0 50px;
-}
 .hero__logo-container {
   display: flex;
   justify-content: center;
@@ -185,20 +195,14 @@ header {
   display: block;
 }
 .hero__text {
-  color: #fff;
+  color: var(--color-white);
 }
 /*info*/
-main {
-  background: #fff;
-  margin: 0 35px;
-  border-radius: 5px;
-  height: 800px;
-}
 .info {
   margin-top: 40px;
   text-align: center;
   height: 600px;
-  border-bottom: 1px solid rgb(173, 167, 167);
+  border-bottom: 1px solid var(--color-off-white);
 }
 .container {
   display: flex;
@@ -206,7 +210,7 @@ main {
 }
 .info__img-container {
   margin-top: 70px;
-  border: 2px solid rgb(173, 167, 167);
+  border: 2px solid var(--color-off-white);
   border-radius: 100%;
   padding: 5px;
 }
@@ -217,12 +221,6 @@ main {
   background-size: cover;
   border-radius: 100%;
 }
-.info__header {
-  margin-top: 40px;
-}
-.info__text {
-  padding: 0 35px;
-}
 .info__btn {
   margin-top: 20px;
 }
@@ -231,6 +229,7 @@ main {
     align-items: center;
     display: flex;
     height: 400px;
+    margin-top: 70px;
   }
   .info__grid {
     align-items: center;
