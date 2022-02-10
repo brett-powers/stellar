@@ -10,7 +10,6 @@
 }
 body {
   background: linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
-  height: 800vh;
 }
 /*Layout*/
 header {
@@ -426,4 +425,14 @@ footer {
   .footer__header {
     margin-top: 0;
   }
+}
+/* Copyright */
+.copyright {
+  margin-top: 60px;
+  text-align: center;
+}
+.copyright,
+.copyright__link {
+  font-size: 1.3rem;
+  color: lightgray;
 }
