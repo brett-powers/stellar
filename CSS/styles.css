@@ -347,3 +347,29 @@ a:hover {
 .spotLight__btn {
   margin-top: 30px;
 }
+@media screen and (min-width: 750px) {
+  .spotLight {
+    height: 660px;
+  }
+  .spotLight__grid {
+    display: flex;
+    margin: 50px 60px;
+  }
+  .spotLight__container-1,
+  .spotLight__container-2,
+  .spotLight__container-3,
+  .spotLight__container-4,
+  .spotLight__container-5 {
+    height: 160px;
+  }
+  .spotLight__container-1 {
+    border-radius: 10px 0 0 10px;
+  }
+  .spotLight__container-5 {
+    border-radius: 0 10px 10px 0;
+  }
+  .spotLight__icon {
+    font-size: 40px;
+    height: 50px;
+  }
+}
