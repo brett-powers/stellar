@@ -342,6 +342,7 @@ a:hover {
 }
 .spotLight__number {
   font-size: 3rem;
+  font-weight: 300;
   color: var(--color-white);
 }
 .spotLight__btn {
